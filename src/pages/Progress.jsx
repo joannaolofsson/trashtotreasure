@@ -24,15 +24,16 @@ function Progress() {
         <img src={ProgressImg} />
     </div>
     </div>
-    <div className="p-4 bg-[#303030] rounded-md my-6 flex flex-row items-center justify-center">
-      <div className="flex flex-row bg-orange-300 rounded-md px-10 py-4 hover:bg-gray-500 dark:hover:bg-gray-800 group">
-        <div className="pr-2">Scan</div>
+    <div className="p-4 bg-[#303030] rounded-md ">
+      <div className=" bg-orange-300 rounded-md flex items-center justify-center">
+        <div className="p-4">Scan</div>
         <div>
         <Link to="#">
-        <span className="text-base text-gray-500 dark:text-zinc-900 group-hover:text-blue-600 
-        dark:group-hover:text-blue-500"><ImQrcode className="w-6 h-6 text-gray-500 dark:text-gray-900" 
+        <span className="text-base text-zinc-900
+        group-hover:text-blue-500 text-semibold"><ImQrcode className="w-8 h-8 text-gray-900" 
             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" /></span>
         </Link></div>
+
       </div>
 
     </div>
